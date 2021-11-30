@@ -1,0 +1,20 @@
+@media (min-width: 720px) {
+    .navbar h2{
+        margin-left: 3rem;
+        margin-right: 2rem;
+    }
+
+    .display-product-admin tr {
+        width: 100vw;
+    }
+    .add-product {
+        width: 100vw;
+        display: grid;
+        justify-content: center;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2px;
+    }
+  }
